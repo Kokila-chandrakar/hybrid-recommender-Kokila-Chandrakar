@@ -811,6 +811,7 @@ def submit_feedback(data: FeedbackCreate):
             "feedback": data.feedback
         }
     }
+
 # ── Frontend Serving ────────────────────────────────────────────────
 frontend_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'frontend')
 
